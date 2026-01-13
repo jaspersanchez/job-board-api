@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4000;
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
-  process.env.FRONTEND_URL || 'https://job-board-api-ceuc.onrender.com', // We'll update this
+  process.env.FRONTEND_URL || 'https://job-board-inky-zeta.vercel.app/', // We'll update this
 ];
 
 app.use(cors({
